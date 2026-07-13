@@ -34,7 +34,7 @@ function Header(){
         </div>
         {
                 showDisplay &&
-                    <div className="md:hidden absolute z-10 w-full opacity-85 p-4 text-gray-700 bg-gray-50 shadow-sm ">
+                    <div className="md:hidden fixed z-10 w-full opacity-85 p-4 text-gray-700 bg-gray-50 shadow-sm ">
                         <p className="px-1 md:px-4"><Link to={"/"}>Home</Link></p>
                         <p className="px-1 md:px-4"><Link to={"/About"}>About</Link></p>
                         <p className="px-1 md:px-4"><Link to={"/Projects"}>Projects</Link></p>

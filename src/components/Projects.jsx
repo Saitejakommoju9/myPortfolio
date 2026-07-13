@@ -2,7 +2,7 @@ import { projects } from "../utils/constants";
 
 function Projects(){
     return(
-        <div className="mt-28">
+        <div className="mt-22">
             <h1 className="font-bold text-3xl text-center">Projects</h1>
             <p className="text-center text-2xl text-gray-800">Ideas I've Built</p>
             <div className="flex flex-wrap  px-2 justify-center my-10">
